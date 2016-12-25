@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    int gameBoard [3][3];
+
+    printarray (gameBoard, 3);
+
+/*
+    cout << right << setw(4) << "|" << setw(4) << "|" << setw(2) << endl;
+    cout << "--1--------" << endl;
+    cout << right << setw(4) << "|" << setw(4) << "|" << setw(2) << endl;
+    cout << "-----------" << endl;
+    cout << right << setw(4) << "|" << setw(4) << "|" << setw(2) << endl;
+    cout << "Your move.";
+*/
+}
